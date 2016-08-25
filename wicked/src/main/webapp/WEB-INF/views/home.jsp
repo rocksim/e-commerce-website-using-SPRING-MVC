@@ -14,7 +14,7 @@
     <link href="resources/css/main.css" rel="stylesheet">
     <link href="resources/fonts/stylesheet.css" rel="stylesheet">
     <link href="resources/css/responsive.css" rel="stylesheet">
-    
+   
     
 <div class="container-fluid">
   <br>
@@ -29,24 +29,21 @@
     </ol>
 
     <!-- Wrapper for slides -->
-    
- 
-
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="resources/images/keyboard.jpg" alt="keyboard" width="3500" height="3500">
+        <img src="resources/images/keyboard.jpg" alt="keyboard" width="1600" height="900">
        
       </div>
 
       <div class="item">
-        <img src="resources/images/ipodpro.jpg" alt="ipad" width="3500" height="3500">
+        <img src="resources/images/ipodpro.jpg" alt="ipad" width="1600" height="900">
       </div>
     
       <div class="item">
-        <img src="resources/images/ipodcarausal.jpg" alt="ipod" width="3500" height="1000">
+        <img src="resources/images/ipodcarausal.jpg" alt="ipod" width="1600" height="9000">
       </div>
        <div class="item">
-        <img src="resources/images/macbook.jpg" alt="macbook" width="3500" height="1000">
+        <img src="resources/images/macbook.jpg" alt="macbook" width="1600" height="900">
       </div>
       
 
@@ -54,7 +51,7 @@
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
@@ -68,12 +65,12 @@
 
 <section id="recent-works" class="shortcode-item">
         <div class="container-fluid">
-            <h2 align="center">PRODUCT OVERVIEW</h2>
+            <h2 align="center" color="red" >PRODUCT OVERVIEW</h2>
             <br>
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-4">
                     <div class="recent-work-wrap">
-                        <img  class="img-circle img-responsive"  src="resources/images/watch.jpg" alt="watch" alt="" height="400" width="400">
+                        <img  class="img-circle img-responsive"  src="resources/images/watch.jpg" alt="watch" alt="" height="0px" width="90px">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="<c:url value="/product/productList?searchCondition=watch" />">Watch</a> </h3>

@@ -20,7 +20,8 @@ public class HomeController {
             String error,
             @RequestParam(value="logout", required = false)
             String logout,
-            Model model){
+            Model model)
+    {
 
         if(error != null){
             model.addAttribute("error", "Invalid username and password");
@@ -37,6 +38,11 @@ public class HomeController {
     public String about(){
         return "about";
     }
+    @RequestMapping("/support")
+    public String support(){
+        return "support";
+    }
+
 
 
 } // The End of Class;
